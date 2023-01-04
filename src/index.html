@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+</head>
+<body>
+  <div class="container">
+    <form id="input">
+      <input type="text" id="city" placeholder="Enter City Name">
+      <input type="submit" value="Get Updates">
+    </form>
+    <div id="weatherContainer">
+      <marquee id="cityName">Arlington</marquee>
+      <span id="temp">33°C</span>
+      <span id="main">Cloudy</span>
+      <marquee id="discription"></marquee>
+      <img id="image" src="https://openweathermap.org/img/wn/02n@2x.png">
+    </div>
+  </div>
+<div class="container">
+  <script src="App.js"></script>
+  
+  <div id="openweathermap-widget-11"></div>
+<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script><script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 11,cityid: '4671240',appid: 'f070781c6d2624cd1c02a523aeca5f6c',units: 'imperial',containerid: 'openweathermap-widget-11',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+</body>
+</html>
